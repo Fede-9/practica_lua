@@ -1,0 +1,16 @@
+io.write("que cantidad de hamburguesa completa se consumio?:")
+hambcompleta=io.read()
+io.write("que cantidad de hamburguesa comun se consumio?:")
+hambcomun=io.read()
+io.write("que cantidad de papas fritas se consumio?:")
+papas=io.read()
+io.write("que cantidad de sanwich de milanesa se consumio?:")
+sandwich=io.read()
+io.write("que cantidad de cerveza se consumio?:")
+cerveza=io.read()
+io.write("que cantidad de gaseosa se consumio?:")
+gaseosa=io.read()
+cantidad_consumida=hambcompleta+hambcomun+papas+sandwich+cerveza+gaseosa
+print("unidades consumidas:"..cantidad_consumida)
+cuenta=hambcompleta*30.50+hambcomun*23.50+papas*12.50+sandwich*40.00+cerveza*23.00+gaseosa*13.50
+print("su cuenta es de:"..cuenta.. " pesos")

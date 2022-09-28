@@ -1,0 +1,7 @@
+io.write("ingrese su primer numero para saber su promedio:")
+num1=io.read()
+io.write("ingrese su segundo numero para saber su promedio:")
+num2=io.read()
+io.write("ingrese su tercer numero para saber su promedio:")
+num3=io.read()
+print("su promedio de los tres numeros:".. (num1 + num2 + num3) / 3)

@@ -1,0 +1,5 @@
+io.write("ingrese un numero para sumar:")
+num1 = io.read()
+io.write("ingrese otro numero para sumar:")
+num2 = io.read()
+print("el resultado de los numeros sumados es: "..num1 + num2)

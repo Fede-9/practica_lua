@@ -1,0 +1,6 @@
+io.write("digame la base de un rectangulo:")
+base = io.read()
+io.write("digame la altura de un rectangulo:")
+altura = io.read()
+print("la superficie del rectangulo es de:".. base * altura)
+print("el perimetro del rectangulo es de:".. 2*(base + altura))

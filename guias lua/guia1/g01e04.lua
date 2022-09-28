@@ -1,0 +1,5 @@
+io.write("ingrese un importe:")
+importe=io.read()
+io.write("ingrese un porcentaje:")
+porcentaje=io.read()
+print("su importe es de:".. importe*porcentaje/100)

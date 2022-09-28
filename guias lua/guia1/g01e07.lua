@@ -1,0 +1,11 @@
+io.write("cuantos alumnos tiene la asignatura:")
+alumnos=io.read()
+io.write("digame la cantidad de desaprobados de la asignatura:")
+desaprobados=io.read()
+io.write("digame la cantidad de aprobados de la asignatura:")
+aprobados=io.read()
+io.write("digame la cantidad de sobresalientes de la asignatura:")
+sobresalientes=io.read()
+print("el porcentaje de alumnos que han regularizado la materia es de:"..(aprobados+sobresalientes)*100/alumnos)
+print("el porcentaje de alumos que han reprobado la materia es de:"..desaprobados*100/alumnos)
+

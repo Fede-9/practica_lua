@@ -1,0 +1,8 @@
+io.write("ingrese un valor real:")
+valor_real_1=io.read()
+io.write("ingrese otro valor real:")
+valor_real_2=io.read()
+print("la suma de los valores reales es:"..valor_real_1+valor_real_2)
+print("la resta de los valores reales es:"..valor_real_1-valor_real_2)
+print("la division entre los valores reales es:"..valor_real_1/valor_real_2)
+print("la multiplicacion entre los valores reales es:"..valor_real_1*valor_real_2)

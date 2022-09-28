@@ -1,0 +1,10 @@
+io.write("ingrese un dato:")
+A=io.read()
+io.write("ingrese se segundo dato:")
+B=io.read()
+io.write("ingrese su tercer dato")
+C=io.read()
+io.write("ingrese su cuarto dato:")
+D=io.read()
+A,B,C,D=D,C,A,B
+print("nuevo orden:"..A..B..C..D)
